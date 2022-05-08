@@ -4,5 +4,53 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
+
+#index {
+  background: url("https://static.vecteezy.com/system/resources/previews/002/527/907/non_2x/cinema-entertainment-with-pop-corn-and-tickets-vector.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#body-index {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#title-index {
+  color: white;
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+#check-movies {
+  width: auto;
+  border: 0.5px, darkgray;
+  font-style: 14px "Arial" lightgray;
+  border-radius: 25px;
+  background-color: white;
+  color: grey;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 270px;
+  margin-top: -50px;
+}
+
+#movies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}
+
+#movie-title {
+  font-weight: bold;
+}
+
